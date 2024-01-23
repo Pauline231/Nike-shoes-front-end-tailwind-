@@ -1,8 +1,6 @@
-# React + Vite
+#Nike-shoes-front-end-tailwind
+This is a home page for the nike shoes built using Tailwind css and react which I learned from youtube. I felt tailwind css is much more effective in building responsive pages easily and goes hard with reactjs.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h3>Problems I faced</h3>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+While building this, the major problem I faced was making the responsive dropdown button. I solved it by using useState, useEffect and useRef hooks. As a beginner, this is certainly something I will always remember.
