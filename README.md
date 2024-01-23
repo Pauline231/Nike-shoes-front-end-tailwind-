@@ -1,4 +1,5 @@
-#Nike-shoes-front-end-tailwind
+<h1>Nike-shoes-front-end-tailwind</h1>
+
 This is a home page for the nike shoes built using Tailwind css and react which I learned from youtube. I felt tailwind css is much more effective in building responsive pages easily and goes hard with reactjs.
 
 <h3>Problems I faced</h3>
