@@ -4,11 +4,10 @@ const Home = () => {
   return (
   <main className='relative'>
    <Nav/>
-    <section className='xl:padding-1 wide:padding-r 
-    padding-b'>
+    <section className='py-10'>
       <Hero/>
     </section>
-    <section className='padding-x flex-col justify-center'>
+    <section className='padding-x pt-20 flex-col justify-center'>
      <Popular/>
     </section>
     <section className='padding-x py-10'>
