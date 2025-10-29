@@ -3,15 +3,15 @@ import {CReview, Footer, Hero,Nav, Popular,Services, SpecOff, SQ, Subscribe} fro
 const Home = () => {
   return (
   <main className='relative'>
-    <Nav/>
+   <Nav/>
     <section className='xl:padding-1 wide:padding-r 
     padding-b'>
       <Hero/>
     </section>
-    <section className='padding'>
+    <section className='padding-x flex-col justify-center'>
      <Popular/>
     </section>
-    <section className='padding-b'>
+    <section className='padding-x py-10'>
       <SQ/>
     </section>
     <section className='padding-x py-10'>

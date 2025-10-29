@@ -25,7 +25,7 @@ useEffect(()=>{
       <nav className='flex justify-between items-center max-container'>
         <a href="\"><img src='../src/assets/images/header-logo.svg' 
         alt='LOGO' width={130} height={29}/></a>
-        <ul className='flex-1 flex justify-center items-center gap-16
+        <ul className='flex-1 flex justify-end items-center gap-16
         max-lg:hidden'>
           {navLinks.map((item)=>(
             <li key={item.label}>
@@ -36,7 +36,7 @@ useEffect(()=>{
              </li>
           ))} 
         </ul>
-        <div ref={ddref} className='relative'>
+        {show?<div ref={ddref} className='relative'>
          <div className='relative right-5'>
             <button className='rounded-l overflow-hidden block outline-white border-white hover:bg-gray-200 focus:border-gray-300' onClick={()=>setShow((show)=>!show)}>
           <img src={hamburger} alt="hamburger" data-dropdown-toggle="dropdown"
@@ -47,7 +47,8 @@ useEffect(()=>{
               show?<Ddown/>:null
             }
           </div>
-          </div>
+          </div>:null}
+        
         </nav>
           </header>
   )
