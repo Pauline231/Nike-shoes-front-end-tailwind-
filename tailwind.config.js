@@ -2,8 +2,8 @@
 export default {
   content: [
     "./index.html",
-    './pages/**/*.{js,ts,jsx,tsx}',
-    "./src/**/*.{js,ts,jsx,tsx}",
+    './pages/**/*.{html,css,js,ts,jsx,tsx}',
+    "./src/**/*.{html,css,js,ts,jsx,tsx}",
   ],
   theme: {
     fontSize: {
